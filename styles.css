@@ -1,0 +1,37 @@
+body {
+   background-color: rgb(100, 56, 141);
+   text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+input, button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    cursor: pointer;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px #B8860B; 
+    transition: transform 0.1s ease-in-out;
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #B8860B;
+}
+
+button:hover {
+    background-color: rgb(219, 200, 91);
+}
