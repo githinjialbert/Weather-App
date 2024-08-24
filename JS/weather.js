@@ -5,7 +5,7 @@ const locationCities = document.getElementById("location");
 const temperature = document.getElementById("temperature");
 const description = document.getElementById("description");
 
-const apiKey = "e395a617a7acdfd0a086d64d0f55858b";
+const apiKey = "";
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
 const BASE_API = apiUrl;
