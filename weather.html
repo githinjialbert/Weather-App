@@ -7,16 +7,21 @@
     <title>Weather App</title>
 </head>
 <body>
-    <h1>Weather App</h1>
-    <main>
-        <input type="text" id="major-city">
-        <button id="search-button">Search</button>
-        <div id="weather-details">
-            <h2 id="location"></h2>
-            <p id="temperature"></p>
-            <p id="descritpiton"></p>
-        </div>
-    </main>
+    <div class="container">
+        <h1>Weather App</h1>
+        <main class="main-content">
+            <div class="search-container">
+                <input type="text" id="major-city" placeholder="Enter city name">
+                <button id="search-button">Search</button>
+            </div>
+            <div id="weather-details" class="weather-details">
+                <h2 id="location"></h2>
+                <p id="temperature"></p>
+                <p id="description"></p> <!-- Fixed spelling -->
+            </div>
+        </main>
+    </div>
     <script src="./JS/weather.js"></script>
 </body>
 </html>
+

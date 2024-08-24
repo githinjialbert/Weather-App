@@ -1,37 +1,95 @@
+/* General Styles */
 body {
-   background-color: rgb(100, 56, 141);
-   text-align: center;
-}
-
-h1 {
+    background-color: rgb(100, 56, 141);
     color: whitesmoke;
-    font-size: 45px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-input, button {
-    padding: 8px;
-    border: none;
+/* Container for Centering Content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+/* Header Style */
+h1 {
+    color: #FFD700; /* Gold color for a more elegant look */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Main Content Styling */
+.main-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Search Container Style */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #FFD700; /* Gold border */
     border-radius: 5px;
     font-size: 18px;
+    width: 60%;
+    max-width: 300px;
+    margin-right: 10px;
+    background-color: white;
 }
 
 button {
-    cursor: pointer;
-    cursor: pointer;
-    margin: 20px;
-    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
     font-weight: bold;
-    box-shadow: 0 4px #B8860B; 
-    transition: transform 0.1s ease-in-out;
-    background-color: goldenrod;
     color: whitesmoke;
+    background-color: goldenrod;
+    box-shadow: 0 4px rgba(184, 134, 11, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease-in-out;
 }
 
 button:active {
     transform: translateY(2px);
-    box-shadow: 0 2px #B8860B;
+    box-shadow: 0 2px rgba(184, 134, 11, 0.5);
 }
 
 button:hover {
     background-color: rgb(219, 200, 91);
+}
+
+/* Weather Details Styling */
+.weather-details {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Light background for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#location {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#temperature {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+#description {
+    font-size: 1.2rem;
+    margin: 0;
 }
